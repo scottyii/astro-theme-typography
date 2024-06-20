@@ -1,38 +1,34 @@
 export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
-  title: "活版印字",
+  title: "我饮普洱",
   /** your name */
-  author: "Typography",
+  author: "imztone",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://blog.imzt.one",
   /** your locale */
-  locale: "en-us",
+  locale: "zh-cn",
   /** theme style */
   themeStyle: "light",
   /** your socials */
   socials: [
     {
       name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://github.com/imztone",
     },
     {
       name: "rss",
       href: "/atom.xml",
     },
     {
-      name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    },
-    {
       name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://m.cmx.im/@imztone",
     }
   ],
   /** your header info */
   header: {
-    twitter: "@moeyua13",
+    twitter: "",
   },
   /** your navigation links */
   navs: [
@@ -55,14 +51,15 @@ export const THEME_CONFIG: App.Locals['config'] = {
   ],
   /** your category name mapping, which the `path` will be shown in the url */
   category_map: [
-    { name: "胡适", path: "hu-shi" },
+    { name: "测试", path: "test" },
+    { name: "阅读", path: "阅读" }
   ],
   /** your comment provider */
   comments: {
-    disqus: {
-      // please change this to your disqus shortname
-      shortname: "typography-astro",
-    },
+    // disqus: {
+    //   // please change this to your disqus shortname
+    //   shortname: "",
+    // },
     // giscus: {
     //   repo: 'moeyua/astro-theme-typography',
     //   repoId: 'R_kgDOKy9HOQ',
